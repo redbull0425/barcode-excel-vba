@@ -1,7 +1,7 @@
 # barcode-excel-vba
 
 1. 此專案為EXCEL VBA開發，使用於收集產品裡的電控物料條碼。
-2. 搭配GitHub Desktop，安裝於windows環境
+2. 搭配GitHub Desktop(GitHub for Windows)，安裝於windows環境
 3. 再搭配dropbox -> Dropbox\「redbull0425 」團隊資料夾\範例企劃 C\barcode-excel-vba
 
 ##目前產線收集的條碼狀況
