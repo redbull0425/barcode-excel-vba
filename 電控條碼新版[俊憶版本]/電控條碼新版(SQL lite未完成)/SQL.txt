@@ -1,0 +1,30 @@
+DELETE FROM `items`;
+DELETE FROM `mainkey`;
+DELETE FROM `record`;
+
+DROP TABLE `items`;
+DROP TABLE `mainkey`;
+DROP TABLE `record`;
+
+CREATE TABLE `items` (
+	`id`	INTEGER PRIMARY KEY AUTOINCREMENT,
+	`mainkey_id`	INTEGER,
+	`type_id`	INTEGER,
+	`code`	TEXT
+);
+
+CREATE TABLE `mainkey` (
+	`id`	INTEGER PRIMARY KEY AUTOINCREMENT,
+	`record_id`	INTEGER,
+	`name`	INTEGER
+);
+
+CREATE TABLE `record` (
+	`id`	INTEGER PRIMARY KEY AUTOINCREMENT,
+	`so_number`	TEXT,
+	`so_item`	TEXT,
+	`mo_number`	TEXT,
+	`material_number`	TEXT,
+	`material_description`	TEXT,
+	`quantity`	TEXT
+);
